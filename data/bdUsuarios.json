@@ -1,0 +1,22 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "apellido": "Suarez Ramirez",
+      "correo": "juanseu3@hotmail.com"
+    },
+    {
+      "nombre": "Juan",
+      "apellido": "suarez",
+      "correo": "juanseu3@hotmail.com",
+      "id": 2
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "correo": "",
+      "id": 3
+    }
+  ]
+}

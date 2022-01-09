@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Movie app</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="containerheader">
+      <img id="logo" src="./image/logo-blockBuster.png" alt="" />
+      <nav class="menu" id="form">
+        <ul>
+          <li><a id="todas" >Todas</a></li>
+          <li><a id="mas-valoradas" >Mas volaradas</a></li>
+          <li><a id="menos-valoradas" >Menos valoradas</a></li>
+        </ul>
+     
+      
+     
+    </nav>
+    
+    <form id='form' >
+     
+    <input
+    type="text"
+    id="search"
+    class="search"
+    placeholder="Busca tu peicula favorita"
+  />
+ 
+  <button type="submit" class="busqueda" >
+    <img id="icono-search" src="./image/primary1.png" alt="logooooo" />
+  </button>
+  
+  
+
+</form>
+
+
+    <div>
+      <a id="icono-registro" href="./register.html"><i class="far fa-user"></i></a>
+    </div>
+    <div>
+      <a id="icono-registro" href="./addMovies.html"><i class="fas fa-plus-square "></i></a>
+    </div>
+  </div>
+    </header>
+    <div id="myNav" class="overlay">
+
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+      <!-- Overlay content -->
+      <div class="overlay-content" id="overlay-content"></div>
+    
+    </div>
+   
+    <div class="container">
+      <section class="slider">
+        <!-- <div id="ver-ahora"><img src="./image/play.png" alt=""> ver ahora</div> <div id="ver-despues"><img src="./image/plus.png" alt="">ver despues</div> -->
+        <img id="mulan" class="slider-image" src="./image/mulan.png" alt="poster" />
+
+        <!-- <div id="ver-ahora"><img src="./image/play.png" alt="">ver ahora</div> <div id="ver-despues"><img src="./image/plus.png" alt="">ver despues</div> -->
+        <img id="raya" class="slider-image" src="./image/raya.png" alt="poster" />
+
+        <!-- <div id="ver-ahora"><img src="./image/play.png" alt="">ver ahora</div> <div id="ver-despues"><img src="./image/plus.png" alt=""> ver despues</div> -->
+        <img  id="unidos" class="slider-image" src="./image/unidos.png" alt="poster" />
+      </section>
+    </div>
+   
+    <div>
+      <div class="btn-slider"><a href="#mulan"></a></div>
+      <div class="btn-slider"><a href="#raya"></a></div>
+      <div class="btn-slider"><a href="#unidos"></a></div>
+    </div>
+    <span id="todas-las-peliculas"><h1>Todas las peliculas</h1></span>
+    <main id="main"></main>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
